@@ -50,4 +50,21 @@ function pesquisar() {
 
     section.appendChild(fragment);
   }
+  const searchInput = document.getElementById('searchInput');
+const searchButton = document.getElementById('searchButton');
+
+searchInput.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    realizarPesquisa();
+  }
+});
+
+searchButton.addEventListener('click', realizarPesquisa);
+
+function realizarPesquisa() {
+  const termoPesquisa = searchInput.value;
+  // Aqui você chama a função que realiza a pesquisa com o termoPesquisa
+  console.log('Pesquisando por:', termoPesquisa);
+  // Adicione aqui a lógica para realizar a pesquisa e exibir os resultados
+}
 }
