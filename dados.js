@@ -13,27 +13,21 @@ let dados = [
         lances : "https://www.youtube.com/watch?v=KypfjMBpVH0"
        
     },
-    {
-        titulo : "Fagner",
-        descricao : "Fagner, o lateral-direito, é um dos principais jogadores do Corinthians, conhecido por suas entradas criminosas e sua liderança.",
-        desempenho : "https://www.transfermarkt.com.br/fagner/profil/spieler/47592",
-        lances : "https://www.youtube.com/watch?v=jc2XiAgabdg"
     
-    },
         {titulo : "Yuri Alberto",
-        descricao : "Yuri Alberto, o protagonista que o time do povo precisa, ai esta sem se esconder, sem se omitir",
+        descricao : "Yuri Alberto, o camisa 9 do corinthians chegou e foi muito criticado pórem hoje se tornou um dos melhores atacantes do país.",
         desempenho : "https://www.transfermarkt.com.br/yuri-alberto/profil/spieler/489893",
         lances : "https://www.youtube.com/watch?v=81RFT92Lu7M"
     },
     {
         titulo: "Matheus Donelli",
-        descricao: "Matheus Donelli é o eterno goleiro reserva do corinthians.",
+        descricao: "Matheus Donelli é o goleiro reserva do corinthians.",
         desempenho: "https://www.transfermarkt.com.br/matheus-donelli/profil/spieler/708723",
         lances: "https://www.youtube.com/watch?v=eevHVkbC1rs&pp=ygUhbWF0aGV1cyBkb25lbGxpIG1lbGhvcmVzIGRlZmVzYXMg"
     },
     {
         titulo: "Felix Torres",
-        descricao: "Félix Torres é um zagueiro paraguaio que só é titular po que não tem ninguem para entrar em seu lugar.",
+        descricao: "Félix Torres é o zagueiro paraguaio titular do corinthians.",
         desempenho: "https://www.transfermarkt.com.br/felix-torres/profil/spieler/468174",
         lances: "https://www.youtube.com/watch?v=HdzZ2Bmqyes&pp=ygUeZmVsaXggdG9ycmVzIG1lbGhvcmVzIG1vbWVudG9z"
       },
@@ -44,14 +38,8 @@ let dados = [
         lances: "https://www.youtube.com/watch?v=pXBPxsXIq-w&pp=ygUfYW5kcmUgcmFtYWxobyBtZWxob3JlcyBtb21lbnRvcw%3D%3D"
       },
       {
-        titulo: "Caetano",
-        descricao: "Caetano é um jovem zagueiro que perdeu o espaço no corinthians depois de pessimas atuações.",
-        desempenho: "https://www.transfermarkt.com.br/caetano/profil/spieler/625345",
-        lances: "https://www.youtube.com/watch?v=nzv3Kn8jEjI&pp=ygUlY2FldGFubyBjb3JpbnRoaWFucyBtZWxob3JlcyBtb21lbnRvcw%3D%3D"
-      },
-      {
         titulo: "Caca",
-        descricao: "Cacá é um zageuiro emprestado ao corinthians, ele ficou conhecido por seus gols(a favor e contra kkkkkk)",
+        descricao: "Cacá é o zagueiro que se destaca principalmente por seus gols de cabeça.)",
         desempenho: "https://www.transfermarkt.com.br/caca/profil/spieler/603122",
         lances: "https://www.youtube.com/watch?v=xtlDEarA6u0&pp=ygUfY2FjYSB6YWd1ZWlybyBtZWxob3JlcyBtb21lbnRvcw%3D%3D"
       },
@@ -63,50 +51,44 @@ let dados = [
       },
       {
         titulo: "Diego Palacios",
-        descricao: "Diego Palacios é um lateral-esquerdo equatoriano que veio ao corinthians para se formar em medicina.",
+        descricao: "Diego Palacios é um lateral-esquerdo equatoriano que se machucou em seu primeiro jogo pela equipe e após isso perdeu seu espaço.",
         desempenho: "https://www.transfermarkt.com.br/diego-palacios/profil/spieler/425567",
         lances: "https://www.youtube.com/watch?v=VufMLYNGaqw&pp=ygUhZGllZ28gcGFsYWNpb25zIG1lbGhvcmVzIG1vbWVudG9z"
       },
       {
         titulo: "Matheus Bidu",
-        descricao: "Matheus Bidu é um lateral-esquerdo que quando ta em campo merece estar no banco, e quando esta no banco merece estar em campo.",
+        descricao: "Matheus Bidu é um lateral-esquerdo que se destaca com suas boas chegadas ao ataque.",
         desempenho: "https://www.transfermarkt.com.br/matheus-bidu/profil/spieler/670021",
         lances: "https://www.youtube.com/watch?v=PQ63AnZhUpo&pp=ygUebWF0aGV1cyBiaWR1IG1lbGhvcmVzIG1vbWVudG9z"
       },
       {
         titulo: "Hugo",
-        descricao: "Hugo botinha é um lateral esquerdo que nem ele sabe como é titular do corinthians.",
+        descricao: "Hugo é um lateral-direito que vem sendo muito criticado pela torcida corinthiana.",
         desempenho: "https://www.transfermarkt.com.br/hugo/profil/spieler/730708", // Substitua por um link válido se disponível
         lances: "https://www.youtube.com/watch?v=Y7mD9MAWXU4&pp=ygUeaHVnbyBsYXRlcmFsIG1lbGhvcmVzIG1vbWVudG9z"
       },
       {
         titulo: "Matheuzinho",
-        descricao: "Matheuzinho é um lateral-direito que veio do flamengo e o corinthians não vai pagar kkkkkk.",
+        descricao: "Matheuzinho é um lateral-direito que veio do flamengo ao corinthians e vem ganhando seu espaço.",
         desempenho: "https://www.transfermarkt.com.br/matheuzinho/profil/spieler/594226",
         lances: "https://www.youtube.com/watch?v=lbNYM4DH8c4&pp=ygUwbWVsaG9yZXMgbW9tZW50b3MgZGUgbWF0aGV1emluaG8gbm8gY29yaW50aGlhbnMg"
       },
       {
         titulo: "Leo Mana",
-        descricao: "Léo Mana é um lateral-esquerdo que já aos 20 anos é conhecido como léo mané.",
+        descricao: "Léo Mana é um lateral-esquerdo que se destacou muito na copinha.",
         desempenho: "https://www.transfermarkt.com.br/leo-mana/profil/spieler/838387", // Substitua por um link válido se disponível
         lances: "https://www.youtube.com/watch?v=T6HDAE_h954&pp=ygUtbWVsaG9yZXMgbW9tZW50b3MgZGUgbGVvIG1hbmEgbm8gY29yaW50aGlhbnMgi"
       },
     {
         titulo: "Raniele",
-        descricao: "Raniele é um volante que chegou no corinthians jogando muita bola e depois esuqceu completamente como se joga. ",
+        descricao: "Raniele é um volante que chegou no corinthians e depois de otimas atuações no paulistão conquistou a torcida. ",
         desempenho: "https://www.transfermarkt.com.br/raniele/profil/spieler/546530",
         lances: "https://www.youtube.com/watch?v=nc6v-J4rYtg&pp=ygUsbWVsaG9yZXMgbW9tZW50b3MgZGUgcmFuaWVsZSBubyBjb3JpbnRoaWFucyA%3D"
     },
     {
         titulo: "Jose Martinez",
-        descricao:"José Martinez chegou recentemente ao corinthians e aparenta ser um bom jogador.",
+        descricao:"José Martinez é um volante que demonstra muita raça.",
         desemprenho:"https://www.transfermarkt.com.br/jose-martinez/profil/spieler/415666",
-        lances:""
-    },
-    {
-        titulo:"Ryan",
-        descricao:"Ryan é um volante jovem, que mostra ter mais vontade e amor ao clube que muitos veteranos.",
-        desempenho:"https://www.transfermarkt.com.br/ryan/profil/spieler/1005642https://www.transfermarkt.com.br/ryan/profil/spieler/1005642",
         lances:""
     },
     {
@@ -116,19 +98,19 @@ let dados = [
     },
     {
         titulo:"Maycon",
-        descricao:"Maycon é um meia central que ninguem sabe mas ainda está no corinthians, Maycon tambem é conhecido como mayconha.",
+        descricao:"Maycon é um meia central emprestado ao corinthians pelo shakhtar donetsk.",
         desempenho:"https://www.transfermarkt.com.br/maycon/profil/spieler/421935",
         lances:""
     },
     {
         titulo: "Alex Santana",
-        descricao:"Alex Santana é um meia central que chegou recentemente ao corinthians.",
+        descricao:"Alex Santana é um meia central que briga por seu espaço na equipe.",
         desempenho:"https://www.transfermarkt.com.br/alex-santana/profil/spieler/219835",
         lances:""
     },
     {
       titulo: "Charles",
-      descricao:"Charles é um meia central que ninguem sabe de onde apareceu pórem ta aí.",
+      descricao:"Charles é um meia central que veio do Midtjylland .",
       desempenho:"https://www.transfermarkt.com.br/charles/profil/spieler/486078",
       lances:""
   },
@@ -140,7 +122,7 @@ let dados = [
 },
 {
   titulo: "Igor Coronado",
-  descricao:"Igor Coronado é um meia que joga bem porém não aguenta correr 45 minutos.",
+  descricao:"Igor Coronado é um meia que se destaca muito por sua qualidade com a bola porém não tem muito espaço na equipe.",
   desempenho:"https://www.transfermarkt.com.br/igor-coronado/profil/spieler/215915",
   lances:""
 },
@@ -168,5 +150,10 @@ let dados = [
   desempenho:"",
   lances:""
 },
-    
+{
+    titulo: "Memphis Depay",
+    descricao: "Memphis Depay é um atacante versátil, conhecido por sua habilidade técnica, velocidade e capacidade de finalização. Ele atua como atacante central ou ponta esquerda, e tem um histórico de sucesso em clubes como PSV Eindhoven, Lyon, Barcelona e Atlético de Madrid. Atualmente joga no Corinthians.",
+    desempenho: "https://www.transfermarkt.com.br/memphis-depay/profil/spieler/167850",
+    lances: "https://youtu.be/Vx4WIopnI9c?si=XrgQBOL8t_3SqnbC"
+  }
 ]; 
